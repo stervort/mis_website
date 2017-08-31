@@ -1,0 +1,205 @@
+/* default rules for the whole document - MIS 2100 */
+
+body	{
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	min-width: 700px;
+	max-width: 1024px;
+	padding:0;
+	
+	font-size: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	font-weight: normal;
+	font-style: normal;
+	
+	background: #ffe2a3;
+	background-image: url(name.jpg);
+	
+	
+	}
+
+
+
+/* links */
+
+a:link{color: blue;text-decoration: none;}
+a:visited{color: blue; text-decoration: underline;}
+a:hover{color: #656e99; font-size: 100%;}
+a:active{color: #214362; text-decoration: none;}
+
+
+/* headings */
+
+h1	{
+	font-size: 250%;
+	color: #112a60;
+	font-weight: bold;
+	font-style: normal;
+	font-variant: small-caps;
+	text-align: left;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	}
+
+h2	{
+	font-size: 150%;
+	color: #233f79;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: underline;
+	font-variant: none;
+	text-align: left;
+	padding: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	}
+
+h3      {
+	font-size: 125%;
+	color: #066;
+	font-weight: bold;
+	font-style: normal;
+	font-variant: small-caps;
+	text-align: left;
+	padding: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	}
+
+/* paragraphs */
+
+p	{
+	font-weight: normal;
+	font-style: normal;
+	font-size: 120%;
+	padding: 5px;
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+/* images */
+
+img	{	
+	border-style: solid; 
+	border-width: thick;
+	border-color: #8f670d;
+        float: left;
+	margin-top: 20px;
+    	margin-bottom: 10px;
+    	margin-right: 30px;
+    	margin-left: 10px;
+	max-width: 100%;
+	height: auto;
+	} 
+
+
+
+/* lists */
+
+ol	{
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 0px;  
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 120%;
+	}
+
+
+
+ul	{
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 0px;  
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 120%;
+	
+	}
+
+
+
+
+
+table	{
+	border-width: 1px;
+	border-spacing: 2px;
+	border-style: outset;
+	border-color: gray;
+	border-collapse: separate;
+	background-color: #8599c4;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	}
+
+table th {
+	border-width: 1px;
+	padding: 10px;
+	border-style: solid;
+	border-color: black;
+	background-color: #566fa4;
+	text-align: center;
+	font-size: 150%;
+	}
+
+table td {
+	border-width: 1px;
+	padding: 5px;
+	border-style: inset;
+	border-color: black;
+	background-color: #8599c4;
+	text-align: center;
+	font-size: 120%;
+	}
+
+
+/* My Site Navigation*/
+
+ul.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li.navigation {
+    float: left;
+    margin: 5px;
+    font-size: 20px;
+        
+    
+}
+
+a.navigation:link, a.navigation:visited {
+    display: block;
+    width: 120px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #1a7c52;
+    border-radius: 25px;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a.navigation:hover, a.navigation:active {
+    background-color: #7fc7a8;
+}
+
+/* to center text elements */
+.tcenter {
+	text-align: center;
+}
+
+/* element clearing */
+.clear { 
+	clear: left;
+}
+
+
+/* end */
